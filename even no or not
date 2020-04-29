@@ -1,0 +1,11 @@
+function isEven(num){
+    if(num%2==0){
+        return "true";
+    }
+    else{
+        return "false";
+    }
+}
+var num = 11;
+var even1 = isEven(num);
+console.log(even1);
