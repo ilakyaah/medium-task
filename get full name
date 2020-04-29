@@ -1,0 +1,7 @@
+function getFullName(firstname,lastname){
+    var name1 = (firstname +' '  + lastname);
+    return name1;
+
+}
+var full = getFullName("GUVI","GEEK");
+console.log(full);
