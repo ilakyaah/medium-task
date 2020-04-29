@@ -1,0 +1,9 @@
+
+function getLastElement(array){
+    if(array.length == 0){
+        return undefined;}
+    else{
+        return array.pop();
+    }
+}
+getLastElement([1, 2, 3, 4]);
