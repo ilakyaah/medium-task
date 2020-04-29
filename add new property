@@ -1,0 +1,6 @@
+function addproperty(){
+    var obj={};
+    obj.myproperty = true;
+    return obj;
+}
+addproperty()
