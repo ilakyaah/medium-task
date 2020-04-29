@@ -1,0 +1,7 @@
+function removeproperty(){
+    var obj={"my property":true};
+    delete obj.myproperty;
+    return obj;
+  }
+var obj
+obj;
